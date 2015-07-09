@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'KeyCDNAPI' => $vendorDir . '/keycdn/php-keycdn-api/src/KeyCDN.php',
+    'KeyCDN' => $vendorDir . '/keycdn/php-keycdn-api/src/KeyCDN.php',
 );

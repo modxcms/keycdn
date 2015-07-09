@@ -3,10 +3,6 @@ $output = '';
 switch ($options[xPDOTransport::PACKAGE_ACTION]) {
     case xPDOTransport::ACTION_INSTALL:
         $output = '
-            <label for="kcdn_alias">Alias:</label>
-            <input type="text" name="alias" id="kcdn_alias" width="300" value="" />
-            <br /><br />
-
             <label for="kcdn_api_key">API Key:</label>
             <input type="text" name="api_key" id="kcdn_api_key" width="300" value="" />
             <br /><br />

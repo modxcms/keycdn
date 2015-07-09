@@ -4,8 +4,8 @@ require_once MODX_CORE_PATH.'config/'.MODX_CONFIG_KEY.'.inc.php';
 require_once MODX_CONNECTORS_PATH.'index.php';
 
 $corePath = $modx->getOption('kcdn.core_path',null,$modx->getOption('core_path').'components/keycdn/');
-require_once $corePath.'model/keycdn/keycdn.class.php';
-$modx->kcdn = new KeyCDN($modx);
+require_once $corePath.'model/keycdn/modxkeycdn.class.php';
+$modx->kcdn = new modXKeyCDN($modx);
 
 $modx->lexicon->load('keycdn:default');
 
