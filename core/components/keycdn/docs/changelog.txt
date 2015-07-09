@@ -1,0 +1,6 @@
+Changelog file for KeyCDN component.
+
+KeyCDN 1.0.0
+====================================
+
+- First build of the KeyCDN component

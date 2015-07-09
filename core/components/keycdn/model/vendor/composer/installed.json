@@ -1,0 +1,14 @@
+[
+    {
+        "name": "keycdn/php-keycdn-api",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/keycdn/php-keycdn-api",
+            "reference": "83a84f9673"
+        },
+        "type": "library",
+        "installation-source": "source"
+    }
+]

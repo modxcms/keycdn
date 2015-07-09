@@ -1,0 +1,22 @@
+{
+  "repositories": {
+    "php-keycdn-api": {
+      "type": "package",
+      "package": {
+        "name": "keycdn/php-keycdn-api",
+        "version": "1.0.0",
+        "source": {
+          "url": "https://github.com/keycdn/php-keycdn-api",
+          "type": "git",
+          "reference": "83a84f9673"
+        }
+      }
+    }
+  },
+  "require": {
+    "keycdn/php-keycdn-api": "*"
+  },
+  "autoload": {
+    "classmap": ["vendor/keycdn/php-keycdn-api/src/"]
+  }
+}
