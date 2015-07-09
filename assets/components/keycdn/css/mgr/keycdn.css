@@ -1,0 +1,38 @@
+.kcdn-all-contexts {
+    margin-top: 11px;
+}
+
+.kcdn-logo {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 240px;
+    height: 70px;
+}
+
+.kcdn-logo img {
+    width: 240px;
+    height: 70px;
+}
+
+#kcdn-chart-line-daily {
+    clear: both;
+    min-width: 500px;
+    height: 250px;
+    background: #eee;
+    border: 1px solid #aaa;
+    margin: 0 10px 10px 10px;
+}
+
+#kcdn-chart-column-storage {
+    min-width: 500px;
+    height: 250px;
+    background: #eee;
+    border: 1px solid #aaa;
+    margin: 0 10px 10px 10px;
+}
+
+.kcdn-clear {
+    clear: both;
+}

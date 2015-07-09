@@ -33,6 +33,13 @@ KeyCDN.page.Home = function(config) {
                     }
                 }
                 ,items: [{
+                    title: _('kcdn.reporting')
+                    ,items: [{
+                        html: '<h2 class="kcdn-logo"><img src=" ' + KeyCDN.config.assetsUrl + 'images/keycdn-logo.png" /></h2>' +
+                            '<div id="kcdn-chart-line-daily"></div>' +
+                            '<div id="kcdn-chart-column-storage"></div>'
+                    }]
+                },{
                     title: _('kcdn.rules')
                     ,items: [{
                         xtype: 'kcdn-grid-rules'

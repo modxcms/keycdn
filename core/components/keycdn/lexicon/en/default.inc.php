@@ -37,6 +37,15 @@ $_lang['kcdn.schemeless'] = 'Schemeless';
 $_lang['kcdn.sortorder'] = 'Sort Order';
 $_lang['kcdn.update_rule'] = 'Update Rule';
 
+$_lang['kcdn.reporting'] = 'Reporting';
+$_lang['kcdn.reporting_amount'] = 'Amount (Gb)';
+$_lang['kcdn.reporting_cache_hits'] = 'Cache Hits';
+$_lang['kcdn.reporting_desc'] = 'KeyCDN statistics for your configured pull zone.';
+$_lang['kcdn.reporting_hits'] = 'Hits';
+$_lang['kcdn.reporting_non_cache_hits'] = 'Non-Cache Hits';
+$_lang['kcdn.reporting_storage'] = 'Storage';
+$_lang['kcdn.reporting_time'] = 'Time';
+
 $_lang['setting_kcdn.consumer_key'] = 'API Key';
 $_lang['setting_kcdn.consumer_key_desc'] = 'The API Key for your KeyCDN API Application';
 $_lang['setting_kcdn.default_cdn_url'] = 'Default CDN URL';

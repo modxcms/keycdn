@@ -31,9 +31,9 @@ class modXKeyCDN {
     function __construct(modX &$modx,array $config = array()) {
         $this->modx =& $modx;
 
-        $corePath = $this->modx->getOption('kcdn.core_path',$config,$this->modx->getOption('core_path').'components/keycdn/');
-        $assetsUrl = $this->modx->getOption('kcdn.assets_url',$config,$this->modx->getOption('assets_url').'components/keycdn/');
-        $assetsPath = $this->modx->getOption('kcdn.assets_path',$config,$this->modx->getOption('assets_path').'components/keycdn/');
+        $corePath = $this->modx->getOption('kcdn.core_path',null,$this->modx->getOption('core_path').'components/keycdn/');
+        $assetsUrl = $this->modx->getOption('kcdn.assets_url',null,$this->modx->getOption('assets_url').'components/keycdn/');
+        $assetsPath = $this->modx->getOption('kcdn.assets_path',null,$this->modx->getOption('assets_path').'components/keycdn/');
         $this->config = array_merge(array(
             'basePath' => $corePath,
             'corePath' => $corePath,
