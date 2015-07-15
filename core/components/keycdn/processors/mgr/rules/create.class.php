@@ -20,6 +20,8 @@ class kcdnRuleCreateProcessor extends modObjectCreateProcessor {
         if ($this->getProperty('all_contexts')) {
             $this->setProperty('context', '');
         }
+        $this->setProperty('cdn_url', implode(',', $this->getProperty('cdn_url')));
+
         return parent::beforeSet();
     }
 }

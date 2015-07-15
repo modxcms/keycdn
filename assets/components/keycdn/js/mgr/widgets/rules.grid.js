@@ -130,6 +130,7 @@ Ext.extend(KeyCDN.grid.Rules,MODx.grid.Grid,{
             }
             ,isUpdate: true
         });
+        win.record = record;
         win.setValues(record);
         win.show();
     }

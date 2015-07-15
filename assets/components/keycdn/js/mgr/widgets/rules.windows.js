@@ -40,6 +40,7 @@ KeyCDN.window.Rule = function(config) {
                         ,anchor: '50%'
                     },{
                         xtype: 'kcdn-combo-cdnurls'
+                        ,id: config.id + 'kcdn-combo-cdnurls'
                         ,name: 'cdn_url'
                         ,fieldLabel: _('kcdn.cdn_url')
                         ,allowBlank: false
@@ -116,6 +117,9 @@ Ext.extend(KeyCDN.window.Rule,MODx.Window, {
             if (Ext.getCmp(w.config.id + 'kcdn-checkbox-all-contexts').getValue() == true) {
                 Ext.getCmp(w.config.id + 'kcdn-combo-context').disable();
             }
+            w.setValues({
+                'cdn_url[]': w.record.cdn_url
+            });
         }
     }
 });
