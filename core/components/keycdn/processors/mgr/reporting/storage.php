@@ -23,7 +23,7 @@ foreach ($data['data']['stats'] as $obj) {
     $hits[] = array(
         'c' => array(
             array(
-                'v' => date('M j', strtotime($obj['timestamp']))
+                'v' => date('M j', $obj['timestamp'])
             ),
             array (
                 'v' => round(($obj['amount']/1024)/1024, 2)

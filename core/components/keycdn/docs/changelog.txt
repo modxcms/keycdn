@@ -1,5 +1,10 @@
 Changelog file for KeyCDN component.
 
+KeyCDN 1.0.1
+===================================
+
+- Fix small bug around the dates used for the reporting dashboards
+
 KeyCDN 1.0.0
 ====================================
 
